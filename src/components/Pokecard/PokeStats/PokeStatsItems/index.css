@@ -1,0 +1,78 @@
+.pokestatsitem-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.pokestatsitem-container-inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 100%;
+  
+  
+}
+.pokestatsitem-stat_text {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  margin-right: 5px;
+}
+
+.pokestatsitem-stat-range {
+  width: 200px;
+  height: 3px;
+  background: rgba(59, 57, 57, 0.6);
+  border-radius: 5px;
+  position: relative;
+}
+
+.pokestatsitem-stat-range::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: var(--stat-color); /* Agrega la variable de color */
+  width: var(--stat-value, 0%);
+  border-radius: 5px;
+}
+
+.pokestatsitem-line{
+  width: 2px;
+  height: 100%;
+  background-color: black;
+  margin: 0 3px 0 3px;
+  opacity: 30%;
+  
+}
+.pokestatsitem-organizer{
+  height: 100%;  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pokestatsitem-stat_value{
+  width: 15px;
+  margin-right: 15px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  margin-right: 15px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  /* bolita */
+  display: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+

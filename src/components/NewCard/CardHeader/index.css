@@ -1,0 +1,66 @@
+.pokecard__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.pokecard__header-left{
+    display: flex;
+    align-items: center;
+}
+
+.pokecard__header-arrow{
+    background-color: transparent;
+    border: none;
+}
+
+.pokecard__header-arrow:hover{
+    transform: scale(1.2);
+}
+
+.pokecard__header-arrow-img{
+    width: 2rem;
+}
+
+.pokecard__header-name{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.pokecard__header-right{
+    display: flex;
+    align-items: center;
+}
+
+.pokecard__header-shiny{
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 100%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.pokecard__header-shiny:hover{
+    transform: scale(1.1);
+}
+
+.pokename-button_shiny-on {
+    background-color: rgba(255, 217, 0, 0.524);
+    opacity: 100%;
+  }
+  .pokename-button_shiny-off {
+    background-color: rgba(93, 89, 69, 0.524);
+    opacity: 80%;
+  }
+
+.pokecard__header-number{
+    font-size: 18px;
+    color: white;
+    
+}

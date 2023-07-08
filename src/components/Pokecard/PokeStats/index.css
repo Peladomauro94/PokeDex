@@ -1,0 +1,83 @@
+.pokestats-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.pokestats-container-inner {
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pokestats-components-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.pokestats-title {
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-top: -8px;
+  }
+  /*Aqui irian los colores para el BASE STATS o pokestats-title*/
+ 
+  .pokestats-title-grass {
+    color: #74cb48;
+   }
+   .pokestats-title-poison {
+    color: #8517b1;
+   }
+   .pokestats-title-normal {
+     color: #a8a77a;
+   }
+   .pokestats-title-fire {
+    color: #ee8130;
+   }
+   .pokestats-title-water {
+     color: #6390f0;
+   }
+   .pokestats-title-electric {
+     color: #f7d02c;
+   }
+   .pokestats-title-ice {
+     color: #96d9d6;
+   }
+   .pokestats-title-fighting {
+     color: #c22e28;
+   }
+   .pokestats-title-ground {
+     color: #e2bf65;
+   }
+   .pokestats-title-flying {
+     color: #a98ff3;
+   }
+   .pokestats-title-psychic {
+    color: #f95587;
+   }
+   .pokestats-title-bug {
+    color: #a6b91a;
+   }
+   .pokestats-title-rock {
+     color: #b6a136;
+   }
+   .pokestats-title-ghost {
+     color: #735797;
+   }
+   .pokestats-title-dragon {
+     color: #6f35fc;
+   }
+   .pokestats-title-dark {
+    color: #705746;
+   }
+   .pokestats-title-steel {
+     color: #b7b7ce;
+   }
+   .pokestats-title-fairy {
+    color: #d685ad;
+   }
+   

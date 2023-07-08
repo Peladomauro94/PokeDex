@@ -1,0 +1,26 @@
+.card-data-items__total-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.card-data-items__container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.7rem;
+    font-weight: 700;
+    width: 5.2rem;
+    text-align: center;
+}
+
+.card-data-items__data-text{
+    margin-left: 5px;
+}
+
+.card-data-items__total-container.center-block{
+    border-right: 2px, solid gray;
+    border-left: 2px, solid gray;
+}
+
+

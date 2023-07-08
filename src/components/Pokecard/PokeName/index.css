@@ -1,0 +1,77 @@
+.pokename-container-general {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.pokename-container-inner {
+  width: 390px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pokename-container-name_arrows {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+.pokename-arrow_button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+.pokename-button_shiny {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.pokename-shiny-button-img {
+  width: 30px;
+  height: 30px;
+}
+.pokename-arrow-img {
+  background-image: url("/public/practiceimgs/arrow-left.svg");
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pokename-arrow-img-right {
+  background-image: url("/public/practiceimgs/arrow-right.svg");
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pokename-name {
+  color: white;
+  font-size: 2rem;
+  margin: 0 10px 0 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+.pokename-pokedex_number {
+  color: white;
+  font-size: 1rem;
+  margin-right: 15px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.pokename-shinybtn-container {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+}
+.pokename-button_shiny-on {
+  background-color: rgb(224, 224, 141);
+  border-radius: 100%;
+  opacity: 100%;
+}
+.pokename-button_shiny-off {
+  background-color: rgb(231, 231, 174);
+  border-radius: 100%;
+  opacity: 80%;
+}

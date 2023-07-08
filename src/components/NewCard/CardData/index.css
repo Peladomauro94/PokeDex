@@ -1,0 +1,43 @@
+.card-data__total-container{
+    width: 90%;
+    padding-bottom: 2rem;
+    background-color: white;
+    align-self: center;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+    top: -5.3rem;
+    padding-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+.card-data__items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 0.8rem;
+    
+}
+
+.card-data__about{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+.card-data-items__description{
+    max-width: 85%;
+    text-align: center;
+}
+
+.card-stats__title{
+    font-size: 18px;
+    font-weight: 600;
+}
+

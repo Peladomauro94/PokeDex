@@ -1,0 +1,106 @@
+.pokebackground-container-general {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.pokebackground-container-inner {
+  display: flex;
+  width: 390px;
+  height: 120vh; /*el 100vh hemos de cambiarlo eventualmente pero para fines didacticos lo dejo asi por ahora*/
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokebackground-img-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.pokebackground-white_square {
+  width: 97%;
+  height: 500px;
+  background-color: aliceblue;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.pokebackground-img {
+  background-image: url(../../../assets/practice-imgs/Pokeball.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 190px;
+  height: 190px;
+  opacity: 20%;
+  margin: 5px 5px 0 0;
+}
+/*Aqui irian todos los fondos de los tipos que cambiaremos dinamicamente mas adelante*/
+.pokebackground-container-grass {
+  background-color: #74cb48;
+}
+.pokebackground-container-poison {
+  background-color: #8517b1;
+}
+.pokebackground-container-normal {
+  background-color: #a8a77a;
+}
+.pokebackground-container-fire {
+  background-color: #ee8130;
+}
+.pokebackground-container-water {
+  background-color: #6390f0;
+}
+.pokebackground-container-electric {
+  background-color: #f7d02c;
+}
+.pokebackground-container-ice {
+  background-color: #96d9d6;
+}
+.pokebackground-container-fighting {
+  background-color: #c22e28;
+}
+.pokebackground-container-ground {
+  background-color: #e2bf65;
+}
+.pokebackground-container-flying {
+  background-color: #a98ff3;
+}
+.pokebackground-container-psychic {
+  background-color: #f95587;
+}
+.pokebackground-container-bug {
+  background-color: #a6b91a;
+}
+.pokebackground-container-rock {
+  background-color: #b6a136;
+}
+.pokebackground-container-ghost {
+  background-color: #735797;
+}
+.pokebackground-container-dragon {
+  background-color: #6f35fc;
+}
+.pokebackground-container-dark {
+  background-color: #705746;
+}
+.pokebackground-container-steel {
+  background-color: #b7b7ce;
+}
+.pokebackground-container-fairy {
+  background-color: #d685ad;
+}
+
+@media (min-width: 375px) {
+  .pokebackground-container-general {
+    
+    background-image: url('../../../../public/practiceimgs/background.jpg');
+    background-repeat: none;
+    
+    
+  }
+ 
+
+
+}

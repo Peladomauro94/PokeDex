@@ -1,0 +1,142 @@
+.header{
+    width: 85%;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-logo-img{
+   width: 2rem;
+   height: 2rem;
+   opacity: 0.5;
+    animation: rotate 3s linear infinite;
+}
+
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.header-logo-filter{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 2rem;
+}
+
+.header-filter{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 8px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+.header-logo-title{
+    font-size: 30px;
+    color: white;
+}
+
+.header-search-bar{
+    width: 100%;
+    height: 2rem;
+    border-radius: 10px;
+    border: 0.1px solid black;
+    padding: 0.1rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0.5rem;
+    
+}
+
+.header-search-bar:focus::placeholder {
+    opacity: 0;
+}
+
+.header-search-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    position: relative;
+}
+
+.header-search{
+    width: 100%;
+}
+
+input::placeholder {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+.header-filter-symbol{
+    display: flex;
+    flex-wrap: wrap;
+    width: 5px;
+}
+
+.header-search-placeholder{
+    position: absolute;
+    
+    top: 0.1rem;
+    color: rgba(0, 0, 0, 0.368);
+    
+}
+
+.header-search-lupa{
+    position: relative;
+    font-size: 17px;
+    top: 0.15rem;
+    margin: 0 0.3rem;
+}
+
+.header-search-form.focused::before {
+    content: "🔍";
+    display: inline-block;
+    position: absolute;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (min-width: 800px){
+    .header-logo-filter{
+        height: 3rem;
+    }
+
+    .header-logo-img{
+        width: 2.5rem;
+        height: 2.5rem;
+     }
+
+     .header-logo-title{
+        font-size: 35px;
+    }
+
+    .header-filter{
+        transform: scale(1.45);
+    }
+}
+

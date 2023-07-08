@@ -1,0 +1,159 @@
+.pokeimg-container-general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 0 20px;
+}
+.pokeimg-container-inner {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  justify-content: center;
+  align-items: center;
+}
+.pokeimg-img-container {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pokeimg-img {
+  width: 200px;
+  height: 200px;
+}
+.pokeimg-type-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+.pokeimg-arrow-right{
+  background-image: url("/public/practiceimgs/arrow-right.svg") ;
+}
+.pokeimg-shiny-button{
+  width: 30px;
+  height: 30px;
+}
+
+/*aqui estarian las clases que referencian a los diferentes tipos,*/
+.pokeimg-type_img-grass {
+  background-image: url("/public/practiceimgs/typeImgs/grass.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-normal {
+  background-image: url("/public/practiceimgs/typeImgs/normal.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-fire {
+  background-image: url("/public/practiceimgs/typeImgs/fire.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-water {
+  background-image: url("/public/practiceimgs/typeImgs/water.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-electric {
+  background-image: url("/public/practiceimgs/typeImgs/electric.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-ice {
+  background-image: url("/public/practiceimgs/typeImgs/ice.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-fighting {
+  background-image: url("/public/practiceimgs/typeImgs/fighting.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-ground {
+  background-image: url("/public/practiceimgs/typeImgs/ground.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-flying {
+  background-image: url("/public/practiceimgs/typeImgs/flying.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-psychic {
+  background-image: url("/public/practiceimgs/typeImgs/psychic.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-bug {
+  background-image: url("/public/practiceimgs/typeImgs/bug.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-rock {
+  background-image: url("/public/practiceimgs/typeImgs/rock.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-ghost {
+  background-image: url("/public/practiceimgs/typeImgs/ghost.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-dragon {
+  background-image: url("/public/practiceimgs/typeImgs/dragon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-steel {
+  background-image: url("/public/practiceimgs/typeImgs/steel.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+.pokeimg-type_img-fairy {
+  background-image: url("/public/practiceimgs/typeImgs/fairy.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+
+.pokeimg-type_img-poison {
+  background-image: url("/public/practiceimgs/typeImgs/poison.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}

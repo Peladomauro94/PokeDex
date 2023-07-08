@@ -1,0 +1,95 @@
+.pokedata-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pokedata-container-components{
+    display: flex;
+    justify-content: space-around;
+    width: 390px;
+    margin-top: -30px;    
+}
+.pokedata-title{
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: -5px;    
+
+}
+.pokedata-between_component_line{
+    width: 2px;
+    height: 60px;
+    background-color: black;
+    opacity: 15%;
+    margin-top: 40px;
+}
+.pokedata-pokedex_description{
+    width: 370px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    margin-top: -8px;
+    height: 70px;
+}
+
+/*aqui irian las clases para cambiar el color del titulo segun el tipo*/
+
+.pokedata-title-grass {
+   color: #74cb48;
+  }
+  .pokedata-title-poison {
+   color: #8517b1;
+  }
+  .pokedata-title-normal {
+    color: #a8a77a;
+  }
+  .pokedata-title-fire {
+   color: #ee8130;
+  }
+  .pokedata-title-water {
+    color: #6390f0;
+  }
+  .pokedata-title-electric {
+    color: #f7d02c;
+  }
+  .pokedata-title-ice {
+    color: #96d9d6;
+  }
+  .pokedata-title-fighting {
+    color: #c22e28;
+  }
+  .pokedata-title-ground {
+    color: #e2bf65;
+  }
+  .pokedata-title-flying {
+    color: #a98ff3;
+  }
+  .pokedata-title-psychic {
+   color: #f95587;
+  }
+  .pokedata-title-bug {
+   color: #a6b91a;
+  }
+  .pokedata-title-rock {
+    color: #b6a136;
+  }
+  .pokedata-title-ghost {
+    color: #735797;
+  }
+  .pokedata-title-dragon {
+    color: #6f35fc;
+  }
+  .pokedata-title-dark {
+   color: #705746;
+  }
+  .pokedata-title-steel {
+    color: #b7b7ce;
+  }
+  .pokedata-title-fairy {
+   color: #d685ad;
+  }
+  

@@ -1,0 +1,48 @@
+.pokedataitem-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.pokedataitem-container-upper {
+  height: 100px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pokedataitem-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.pokedataitem-p-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pokedataitem-description {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  opacity: 80%;
+  font-size: 0.8rem;
+  margin-top: -15px;
+}
+.pokedataitem-img {
+  width: 15px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/*aqui iran los estilos referidos a height y weight que refieren a las imgs con sus iconos*/
+.pokedataitem-height {
+  background-image: url("/practiceimgs/Height.svg");
+}
+.pokedataitem-weight {
+  background-image: url("/public/practiceimgs/Weight.svg");
+  margin-right: 2px;
+}
+.pokedataitem-ability{
+  display: none;
+}

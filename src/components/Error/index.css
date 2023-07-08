@@ -1,0 +1,71 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("8d77c45a3d9cdb862bb851dd88259d4b.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position-x: 50%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-text{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+    top: -19rem;
+}
+
+.error-number{
+    font-size: 90px;
+    font-weight: 700;
+    color:rgb(255, 250, 250);
+}
+
+.error-text{
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.error-button{
+    background-color: rgba(255, 0, 0, 0.85);
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 700;
+    color: rgb(225, 220, 220);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.error-button:hover{
+    background-color: rgba(255, 0, 0, 0.469);
+    
+}
+
+@media (min-width: 600px){
+    .container{
+        background-image: url("570855_pikachu_dizzy_eyes_4__by_lordmonferno-dbi1mye.webp");
+    }
+
+    .container-text{
+        width: 20rem;
+        top: 0rem;
+        transform: scale(1.7);
+    }
+
+    
+}
+
+@media (min-width: 1000px){
+    .container-text{
+        left: 20vw;
+    }
+}

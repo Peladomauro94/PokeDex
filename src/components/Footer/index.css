@@ -1,0 +1,136 @@
+.footer-container{
+    width: 100vw;
+    height: 5vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding-left: 0.5rem;
+    position: relative; /*provisorio hasta unir*/
+    bottom: -3rem;
+}
+
+.footer-arrow-img{
+    width: 35px;
+    cursor: pointer;
+    border: solid #717171;
+    background-color: #71717185;
+    border-radius: 50%;
+    padding: 5px;
+    margin-bottom: 1rem;
+    z-index: 99;
+    position: relative;
+    top: 0;
+    transition: top 0.7s ease;
+}
+
+.footer-arrow-img:hover{
+    top:1rem;
+}
+
+.footer-arrow-btn{
+    display: flex;
+    position: relative;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    
+    
+}
+
+.footer-cross-btn{
+    display: flex;
+    position: relative;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    top: -3.5rem;
+}
+
+.footer-btn{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+}
+
+.nav-conteiner{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    background-position-y: bottom;
+    z-index: 1;
+    justify-content: center;
+    display: flex;
+    min-height: 305px;
+    width: 100vw;
+    top: -20px
+}
+
+.footer-list-wrapper{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
+    max-width: 1000px;
+    margin-top: 2.5rem;
+}
+
+.footer-poke-type-icon{
+    position: relative;
+    top:0;
+    width: 3.8rem;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.5));
+    transition: top 0.5s ease;
+}
+
+.footer-poke-type-icon:hover{
+    top: -10px;    
+
+}
+
+.footer-refresh_button{
+    position: absolute;
+    top:-6.3rem;
+    left: 4rem;
+    transform: scale(1.7);
+    transition: left 0.5s ease;
+}
+
+.footer-refresh_button:hover{
+    top:-6.3rem;
+    left: 5rem;
+}
+
+@media (max-width:1383px){
+    .nav-conteiner{
+        background-image: url(/fondo-footer.png);
+}}
+
+@media (max-width: 500px) {
+    .footer-refresh_button{
+        left: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .refresh-btn{
+        width: 6rem;
+        z-index: 100;
+        margin-top: 0.5rem;
+        cursor: pointer;
+        position: absolute;
+        left: 0.5rem;
+        bottom: 1rem;
+        border: none;
+        background-color: transparent;
+    }
+}

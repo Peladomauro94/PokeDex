@@ -1,0 +1,58 @@
+.card-stats__total-container{
+    margin-top: 1.5rem;
+}
+
+.text-grass {
+    color: #74cb48;
+  }
+  .text-poison {
+    color: #8517b1;
+  }
+  .text-normal {
+    color: #a8a77a;
+  }
+  .text-fire {
+    color: #ee8130;
+  }
+  .text-water {
+    color: #6390f0;
+  }
+  .text-electric {
+    color: #f7d02c;
+  }
+  .text-ice {
+    color: #96d9d6;
+  }
+  .text-fighting {
+   color: #c22e28;
+  }
+  .text-ground {
+    color: #e2bf65;
+  }
+  .text-flying {
+    color: #a98ff3;
+  }
+  .text-psychic {
+    color: #f95587;
+  }
+  .text-bug {
+    color: #a6b91a;
+  }
+  .text-rock {
+    color: #b6a136;
+  }
+  .text-ghost {
+    color: #735797;
+  }
+  .text-dragon {
+    color: #6f35fc;
+  }
+  .text-dark {
+    color: #705746;
+  }
+  .text-steel {
+    color: #b7b7ce;
+  }
+  .text-fairy {
+    color: #d685ad;
+  }

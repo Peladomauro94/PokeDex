@@ -1,0 +1,92 @@
+.pokecard__total-container{
+    background-image: url("/public/practiceimgs/CardBackground.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(128, 128, 128, 0.682);
+    
+}
+
+.pokecard__card-container{
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(20, 0, 20, 0.6);
+
+}
+
+.pokecard__cargando-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Aqui irian todos los fondos de los tipos que cambiaremos dinamicamente mas adelante*/
+ 
+  .background-grass {
+    background-color: #74cb48f4;
+  }
+  .background-poison {
+    background-color: #8517b1f3;
+  }
+  .background-normal {
+    background-color: #a8a77af4;
+  }
+  .background-fire {
+    background-color: #ee8230f4;
+  }
+  .background-water {
+    background-color: #6390f0ed;
+  }
+  .background-electric {
+    background-color: #f7ce2cf4;
+  }
+  .background-ice {
+    background-color: #96d9d6f5;
+  }
+  .background-fighting {
+    background-color: #c22d28f8;
+  }
+  .background-ground {
+    background-color: #e2bf65f4;
+  }
+  .background-flying {
+    background-color: #aa8ff3f3;
+  }
+  .background-psychic {
+    background-color: #f95586f8;
+  }
+  .background-bug {
+    background-color: #a6b91af0;
+  }
+  .background-rock {
+    background-color: #b6a136f3;
+  }
+  .background-ghost {
+    background-color: #735797f5;
+  }
+  .background-dragon {
+    background-color: #6d35fcf5;
+  }
+  .background-dark {
+    background-color: #705746f7;
+  }
+  .background-steel {
+    background-color: #b7b7cef3;
+  }
+  .background-fairy {
+    background-color: #d685adf3;
+  }
+
+  @media (max-width:435px){
+    .pokecard__card-container{
+      width: 100%;
+      border-radius: 0px;
+      box-shadow: 10px 10px 10px rgba(20, 0, 20, 0.6);
+  
+  }
+  }

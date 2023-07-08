@@ -1,0 +1,146 @@
+.list-item-container.normal{
+    border-color: #AAA67F;  
+}
+
+.list-item-number.normal{
+    color: #AAA67F;
+}
+
+.list-item-container.fighting{
+    border-color: #C12239;  
+}
+
+.list-item-number.fighting{
+    color: #C12239;
+}
+
+.list-item-container.flying{
+    border-color: #AB91EC;  
+}
+
+.list-item-number.flying{
+    color: #AB91EC;
+}
+
+.list-item-container.poison{
+    border-color: #A43E9E;  
+}
+
+.list-item-number.poison{
+    color: #A43E9E;
+}
+
+.list-item-container.ground{
+    border-color: #DEC16B;  
+}
+
+.list-item-number.ground{
+    color: #DEC16B;
+}
+
+.list-item-container.rock{
+    border-color: #B69E31;  
+}
+
+.list-item-number.rock{
+    color: #B69E31;
+}
+
+.list-item-container.bug{
+    border-color: #A7B723;  
+}
+
+.list-item-number.bug{
+    color: #A7B723;
+}
+
+.list-item-container.ghost{
+    border-color: #70559B;  
+}
+
+.list-item-number.ghost{
+    color: #70559B;
+}
+
+.list-item-container.steel{
+    border-color: #B7B9D0;  
+}
+
+.list-item-number.steel{
+    color: #B7B9D0;
+}
+
+.list-item-container.fire{
+    border-color: #F57D31;  
+}
+
+.list-item-number.fire{
+    color: #F57D31;
+}
+
+.list-item-container.water{
+    border-color: #6493EB;  
+}
+
+.list-item-number.water{
+    color: #6493EB;
+}
+
+.list-item-container.grass{
+    border-color: #74CB4B;  
+}
+
+.list-item-number.grass{
+    color: #74CB4B;
+}
+
+.list-item-container.electric{
+    border-color: #F9CF30;  
+}
+
+.list-item-number.electric{
+    color: #F9CF30;
+}
+
+.list-item-container.psychic{
+    border-color: #FB5584;
+}
+
+.list-item-number.psychic{
+    color: #FB5584;
+}
+
+
+.list-item-container.ice{
+    border-color: #9AD6DF;
+    
+}
+
+.list-item-number.ice{
+    color: #9AD6DF;
+}
+
+.list-item-container.dragon{
+    border-color: #7037FF;
+}
+
+.list-item-number.dragon{
+    color: #7037FF;
+}
+
+.list-item-container.dark{
+    border-color: #75574C;
+    
+}
+
+.list-item-number.dark{
+    color: #75574C;
+}
+
+.list-item-container.fairy{
+    border-color: #E69EAC;
+}
+
+.list-item-number.fairy{
+    color: #E69EAC;
+}

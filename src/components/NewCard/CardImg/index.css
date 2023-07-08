@@ -1,0 +1,128 @@
+.pokecard__img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+
+.pokecard__img{
+    width: 16rem;
+    position: relative;
+    z-index: 5;
+}
+
+.pokecard__pokeball-img{
+  position: absolute;
+  z-index: 0;
+  width: 18rem;
+  top:-20px;
+  opacity: 0.5;
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.pokecard__img-arrow{
+    width: 3rem;
+}
+
+.pokecard__img-arrow:hover{
+  transform: scale(1.2);
+}
+
+.pokeimg-type-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.pokecard__img-type-none{
+  display: none;
+}
+
+.typeclass{
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 30px;
+}
+
+/*aqui estarian las clases que referencian a los diferentes tipos,*/
+.typeclass.img-grass {
+  background-image: url("/practiceimgs/typeImgs/grass.png");
+
+}
+.typeclass.img-normal {
+  background-image: url("/practiceimgs/typeImgs/normal.png");
+
+}
+.typeclass.img-fire {
+  background-image: url("/practiceimgs/typeImgs/fire.png");
+
+}
+.typeclass.img-water {
+  background-image: url("/practiceimgs/typeImgs/water.png");
+
+}
+.typeclass.img-electric {
+  background-image: url("/practiceimgs/typeImgs/electric.png");
+
+}
+.typeclass.img-ice {
+  background-image: url("/practiceimgs/typeImgs/ice.png");
+
+}
+.typeclass.img-fighting {
+  background-image: url("/practiceimgs/typeImgs/fighting.png");
+}
+.typeclass.img-ground {
+  background-image: url("/practiceimgs/typeImgs/ground.png");
+
+}
+.typeclass.img-flying {
+  background-image: url("/practiceimgs/typeImgs/flying.png");
+
+}
+.typeclass.img-psychic {
+  background-image: url("/practiceimgs/typeImgs/psychic.png");
+
+}
+.typeclass.img-bug {
+  background-image: url("/practiceimgs/typeImgs/bug.png");
+
+}
+.typeclass.img-rock {
+  background-image: url("/practiceimgs/typeImgs/rock.png");
+
+}
+.typeclass.img-ghost {
+  background-image: url("/practiceimgs/typeImgs/ghost.png");
+
+}
+.typeclass.img-dragon {
+  background-image: url("/practiceimgs/typeImgs/dragon.png");
+
+}
+.typeclass.img-steel {
+  background-image: url("/practiceimgs/typeImgs/steel.png");
+
+}
+.typeclass.img-fairy {
+  background-image: url("/practiceimgs/typeImgs/fairy.png");
+
+}
+
+.typeclass.img-poison {
+  background-image: url("/practiceimgs/typeImgs/poison.png");
+
+}
